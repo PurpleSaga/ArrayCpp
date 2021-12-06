@@ -1,0 +1,19 @@
+#include<iostream.h>
+#include<conio.h>
+void main()
+{
+int a[n],i;
+clrscr();
+cout<<"enter "<<n<<" numbers"<<endl;
+for(i=0;i<n;i++)
+ {
+ cout<<"enter element #["<<i+1<<"] : ";
+ cin>>a[i];
+ }
+cout<<"the array is "<<endl; 
+for(i=0;i<n;i++)
+ {
+ cout<<a[i]<<"\t";
+ }
+ getch();
+ }
